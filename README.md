@@ -1,21 +1,42 @@
-# git-wiki-skeleton
+<a style="font-weight:bold" href="faq">Check the version table if you are not using Blender 4.2</a> 
 
-NOTE: it's fully supported by github platform, you don't need to install anything locally
+## Usage Instructions for V7
 
-This is a [skeleton](skeleton) repository that can be used as a template to bootstrap your wiki using "[remote_theme](https://github.com/benbalter/jekyll-remote-theme)" config
+*The last known working configuration for **Koikatsu / Koikatsu Party** as of writing this text is HF Patch v3.28, Koikatsu 5.1, Blender 4.2.2, KKBP Importer 7.2.0, KKBP Exporter v4.30, mmd_tools 4.2.2  
+The last known working configuration for **Koikatsu Sunshine** as of writing this text is HF Patch for KKS v1.17, Koikatsu Sunshine 1.1.4, Blender 4.2.2, KKBP Importer 7.2.0, KKBP Exporter v4.30, mmd_tools 4.2.2*  
 
-For documentation, installation guide and demo of git-wiki-theme visit [THIS PAGE](http://drassil.github.io/git-wiki/)
+1. Install the <a style="font-weight:bold" href="https://github.com/ManlyMarco/KK-HF_Patch"> HF Patch for Koikatsu</a>, or the <a style="font-weight:bold" href="https://github.com/ManlyMarco/KKS-HF_Patch"> HF Patch for Koikatsu Sunshine</a>.  
+**Pre-modded repacks will not work** unless you update with the repack's auto-updater or install the HF patch. [Click here for workaround #1.](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues/523)  [Click here for workaround #2.](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues/560)
+1. Find your Koikatsu install directory and drag the <a style="font-weight:bold" href="https://github.com/FlailingFog/KK-Blender-Porter-Pack/releases">KKBP exporter</a> into the /bepinex/plugins/ folder
+1. Start Koikatsu and open the Character Maker
+1. You'll see this UI at the top now.  
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exportpanel.png)
+1. Click the "Export Model for KKBP" button at the top of the screen. This may take a few minutes depending on your computer hardware. A folder in your Koikatsu install directory will popup when the export is finished
+1. Open Blender 4.2. **Other versions are not guaranteed to work.**
+1. Install <a style="font-weight:bold" href="https://extensions.blender.org/add-ons/mmd-tools/">mmd_tools</a> in Blender
+1. Install <a style="font-weight:bold" href="https://github.com/FlailingFog/KK-Blender-Porter-Pack/releases">KKBP Importer 7.2.0</a> in Blender
+1. After you install both addons, you can click the "Import model" button in the KKBP panel  
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel2.png)
+1. Choose the .pmx file from the export folder 
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel3.png)
+1. The blender console will appear and begin importing the model. This may take a few minutes depending on your computer hardware  
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel4.png)
+1. Check there were no errors during import in the scripting tab. A successful import will end in "KKBP import finished in XX minutes"  
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel5.png)
+1. If there were no errors, you can start using the model as is, but it is recommended to finalize the materials first. If you use the model as is, it can take a long time to compile all the shaders. If you finalize the materials then the shaders will compile very quickly. It also makes the shaders compile quickly if you decide to reimport the same model. Finalizing the materials can take a few minutes depending on your hardware  
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel6.png)
+1. If something doesn't look right and you don't see any errors in the log, check the <a style="font-weight:bold" href="wiki">Wiki Home on the sidebar</a>.
+1. If you got an error during import, check the <a style="font-weight:bold" href="faq">FAQ</a>, or search [the issues page on the Github repo](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues) to see if anyone else has your issue.
 
-To report an issue, please use the [git-wiki-theme issues](https://github.com/Drassil/git-wiki-theme/issues)
+#### Exporting from Blender to fbx:
 
-## The git-wiki project
-
-The git-wiki project is composed by 3 different repository:
-
-- [git-wiki-theme](https://github.com/Drassil/git-wiki-theme): This is the repository of the theme that implements the wiki functionalities. You would have not fork it unless you need to send a Pull Request or create your wiki project from scratch.
-
-- [git-wiki-skeleton](https://github.com/Drassil/git-wiki-skeleton): This is the repo that you should fork or use as a template. It uses the [jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) functionality that allows you to create your own wiki based on git-wiki-theme. By using the remote functionality you can automatically keep your wiki always updated with latest features from the **git-wiki-theme**, but you can also fully customize it.
-
-- [git-wiki](https://github.com/Drassil/git-wiki): This is the documentation repository and website of the **git-wiki-theme** project. You would have not fork it unless you want to contribute to the git-wiki project documentation.
-
-Version: 1.0.9
+1. Click the Finalize Materials button in the KKBP panel  
+1. This does three things
+    * Finalizes all of the materials to png files and saves them to the baked_files folder in your export folder
+    * Creates an atlas file for your body / hair / clothes and saves them to the atlas_files folder in your export folder
+    * Creates a new collection that uses the atlas
+1. Hide the original collection in the outliner and show the new collection
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel7.png)
+1. Click the "Prep for target application" button if you want to reduce the bone count or convert the model's armature for VRM / VRChat
+1. Click the export button in the collection tab to export an fbx file to atlas_files in your export folder
+![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel8.png)
