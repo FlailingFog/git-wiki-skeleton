@@ -40,6 +40,6 @@ This will export the hit mesh. An example of the hit mesh is shown below.
 
 ### Enable pushups
 
-Outfit pushups (shown below) are disabled during export. Enable this option on the exporter to re-enable pushups.
+Outfit pushups (shown below) are disabled during export. Enable this option to keep them on.
 
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exporter2.2.png)
