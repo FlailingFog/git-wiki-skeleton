@@ -3,7 +3,7 @@ Each setting in the exporter panel will be briefly detailed on this page.
 
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exportpanel.png)
 
-### Keep current pose
+### Freeze current pose
 
 The pose is usually reset to a T pose during export. Enable this option to not reset to a T pose, and to keep the pose you have selected in the character maker. Because a pose is pre-applied to the armature, the armature will not work correctly in blender. This setting may be useful for 3D prints of koikatsu models or for stills. This exporter setting will force the Koikatsu armature in blender. See the picture below for an example of a pose being applied to the model. 
 
@@ -15,9 +15,9 @@ Some outfits rely on in-game physics to look correct. Enable this option to disa
 
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exporter2.1.png)
 
-### Enable shapekeys
+### Freeze shapekeys
 
-Shapekeys are reverted to their default values during export. Enable this option to apply any shapekeys you have enabled in the character maker to the base mesh. Because the mesh is pre-deformed, other shapekeys will not work correctly in blender. Tear and gag eye shapekeys will also not work in blender. See the picture below for an example of some shapekeys being pre-applied to the base mesh. 
+Shapekeys are reverted to their default values during export. Enable this option to freeze any shapekeys you have enabled in the character maker to the base mesh. Because the mesh is pre-deformed, other shapekeys will not work correctly in blender. Tear and gag eye shapekeys will also not work in blender. See the picture below for an example of some shapekeys being pre-applied to the base mesh. 
 
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exporter3.png)
 
@@ -28,9 +28,9 @@ When imported, the variations will be hidden in the outliner by default.
 
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exporter1.png)
 
-### Export single outfit
+### Export all outfits
 
-This will make the exporter only export the current outfit, so if you only want one outfit this will dramatically increase your koikatsu export times and blender import times.
+This will make the exporter export all of the card's outfits instead of just the currently selected one. This will dramatically increase koikatsu export times and blender import times.
 
 ### Export hit meshes
 
