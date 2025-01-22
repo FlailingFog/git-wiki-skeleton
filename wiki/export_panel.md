@@ -1,5 +1,6 @@
-# Exporter Panel settings
+## Exporter Panel settings
 Each setting in the exporter panel will be briefly detailed on this page.  
+
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/exportpanel.png)
 
 ### Keep current pose
