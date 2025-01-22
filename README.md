@@ -52,7 +52,7 @@
 ![ ](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/images/atlasoption.png)
    
 1. This does three things
-    * Finalizes all of the materials to png files and saves them to the baked_files folder in the .pmx folder
+    * Finalizes all of the materials to png files and saves them to the baked_files folder in the export folder
     * Creates an atlas file for your body / hair / clothes and saves them to the atlas_files folder in your export folder
     * Creates a new collection that uses the atlas
    
@@ -61,5 +61,5 @@
 
 1. If you want to reduce the bone count, or convert the model's armature for VRM / VRChat / Unreal Engine, click the "Prep for target application" button.   
    
-1. Click the export button in the collection tab to export an fbx file to the atlas_files folder in the .pmx folder
+1. Click the export button in the collection tab to export an fbx file to the atlas_files folder in the export folder
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel8.png)
