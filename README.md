@@ -26,7 +26,7 @@
    
 1. Install <a style="font-weight:bold" href="https://github.com/FlailingFog/KK-Blender-Porter-Pack/releases">KKBP Importer 8.0.0</a> in Blender
    
-1. After you install both addons, you can click the "Import model" button in the KKBP panel  
+1. After you install both addons, you can click the "Import model" button in the KKBP panel. [An explanation of all import options can be found here](import_panel)   
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel2.png)
 
 1. Choose the .pmx file from the export folder 
@@ -39,7 +39,7 @@
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel5.png)
 
 ## Editing the model in Blender
-1. If there were no errors, you can start using the model as is, but it is recommended to finalize the materials first. If you use the model as is, it can take a long time to compile all the shaders depending on your GPU / CPU model. If you finalize the materials then the shaders will compile very quickly. Finalizing the materials can take a few minutes depending on your hardware  
+1. If there were no errors, you can start using the model as is, but it is recommended to finalize the materials first. If you use the model as is, it can take a long time to compile all the shaders depending on your computer hardware. If you finalize the materials then the shaders will compile very quickly! Finalizing the materials can take anywhere from 5-20 minutes depending on your hardware and model  
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel6.png)
 
 1. If there were no errors but something doesn't look right, check the [material breakdown](material_breakdown) page for information on how to edit the materials. 
@@ -48,7 +48,7 @@
 
 ## Exporting from Blender to fbx:
 
-1. Enable the Atlas option, then click the Finalize Materials button in the KKBP panel
+1. Enable the Atlas option, then click the Finalize Materials button in the KKBP panel  
 ![ ](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/images/atlasoption.png)
    
 1. This does three things
@@ -59,7 +59,7 @@
 1. Hide the original collection in the outliner and show the new collection
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel7.png)
 
-1. If you want to reduce the bone count, or convert the model's armature for VRM / VRChat / Unreal Engine, click the "Prep for target application" button
+1. If you want to reduce the bone count, or convert the model's armature for VRM / VRChat / Unreal Engine, click the "Prep for target application" button.   
    
-1. Click the export button in the collection tab to export an fbx file to atlas_files in your export folder
+1. Click the export button in the collection tab to export an fbx file to the atlas_files folder in the .pmx folder
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel8.png)
