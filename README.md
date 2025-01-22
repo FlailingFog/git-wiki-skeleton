@@ -20,7 +20,7 @@
 3. A folder in your Koikatsu install directory will popup when the export is finished
 
 ## How to use the importer
-1. Open Blender 4.2 LTS. **Other versions are not guaranteed to work.**
+1. Open Blender 4.2 LTS. **Other versions are not guaranteed to work.** [Click here if you are not using Blender 4.2](faq)
    
 1. Install <a style="font-weight:bold" href="https://extensions.blender.org/add-ons/mmd-tools/">mmd_tools</a> in Blender
    
