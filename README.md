@@ -24,7 +24,7 @@
    
 1. Install <a style="font-weight:bold" href="https://extensions.blender.org/add-ons/mmd-tools/">mmd_tools</a> in Blender
    
-1. Install <a style="font-weight:bold" href="https://github.com/FlailingFog/KK-Blender-Porter-Pack/releases">KKBP Importer 7.2.0</a> in Blender
+1. Install <a style="font-weight:bold" href="https://github.com/FlailingFog/KK-Blender-Porter-Pack/releases">KKBP Importer 8.0.0</a> in Blender
    
 1. After you install both addons, you can click the "Import model" button in the KKBP panel  
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel2.png)
@@ -38,27 +38,28 @@
 1. Check there were no errors during import in the scripting tab. A successful import will end in "KKBP import finished in XX minutes"  
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel5.png)
 
-## Working in Blender
-1. If there were no errors, you can start using the model as is, but it is recommended to finalize the materials first. If you use the model as is, it can take a long time to compile all the shaders. If you finalize the materials then the shaders will compile very quickly. It also makes the shaders compile quickly if you decide to reimport the same model. Finalizing the materials can take a few minutes depending on your hardware  
+## Editing the model in Blender
+1. If there were no errors, you can start using the model as is, but it is recommended to finalize the materials first. If you use the model as is, it can take a long time to compile all the shaders depending on your GPU / CPU model. If you finalize the materials then the shaders will compile very quickly. Finalizing the materials can take a few minutes depending on your hardware  
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel6.png)
 
-1. If something doesn't look right and you don't see any errors in the log, check the <a style="font-weight:bold" href="wiki">Wiki Home on the sidebar</a>.
-   
-1. If you got an error during import, check the <a style="font-weight:bold" href="faq">FAQ</a>, or search [the issues page on the Github repo](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues) to see if anyone else has your issue.
+1. If there were no errors but something doesn't look right, check the [material breakdown](material_breakdown) page for information on how to edit the materials. 
+
+1. If you got an error during import, check the <a style="font-weight:bold" href="faq">FAQ</a>, or search [the issues page on the Github repo](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues) to see if anyone else had the same issue as you.
 
 ## Exporting from Blender to fbx:
 
-1. Click the Finalize Materials button in the KKBP panel
+1. Enable the Atlas option, then click the Finalize Materials button in the KKBP panel
+![ ](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/images/atlasoption.png)
    
 1. This does three things
-    * Finalizes all of the materials to png files and saves them to the baked_files folder in your export folder
+    * Finalizes all of the materials to png files and saves them to the baked_files folder in the .pmx folder
     * Creates an atlas file for your body / hair / clothes and saves them to the atlas_files folder in your export folder
     * Creates a new collection that uses the atlas
    
 1. Hide the original collection in the outliner and show the new collection
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel7.png)
 
-1. Click the "Prep for target application" button if you want to reduce the bone count or convert the model's armature for VRM / VRChat
+1. If you want to reduce the bone count, or convert the model's armature for VRM / VRChat / Unreal Engine, click the "Prep for target application" button
    
 1. Click the export button in the collection tab to export an fbx file to atlas_files in your export folder
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel8.png)
