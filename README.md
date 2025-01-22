@@ -44,7 +44,7 @@
 
 1. If there were no errors but something doesn't look right, check the [FAQ](faq) or the [material breakdown](material_breakdown) page for information on how to edit the materials. 
 
-1. If you got an error during import, check the <a style="font-weight:bold" href="faq">FAQ</a>, or search [the issues page on the Github repo](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues) to see if anyone else had the same issue as you.
+1. If you got an error during import, check the [FAQ](faq), or search [the issues page on the Github repo](https://github.com/FlailingFog/KK-Blender-Porter-Pack/issues) to see if anyone else had the same issue as you.
 
 ## Exporting from Blender to fbx:
 
