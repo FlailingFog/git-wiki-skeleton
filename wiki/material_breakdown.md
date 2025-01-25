@@ -10,17 +10,12 @@ any KKBP material you encounter.
 
 A large amount of cards were chosen at random and tested during the
 development of KKBP 8.0.  
+
 Out of 133 cards...
-
 * 104 (78%) worked out of the box
-
 * 22 (17%) had odd material issues that took 5 minutes to fix
-
 * 5 (4%) exported but did not import
-
-* 1 (0.5%) had odd material issues that would likely take someone a while
-to figure out
-
+* 1 (0.5%) had odd material issues that would likely take someone a while to figure out
 * 1 (0.5%) did not export and crashed the game
 
 This means if you're having issues **there's a 94.5% chance** reading the
