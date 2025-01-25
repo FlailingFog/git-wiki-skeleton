@@ -189,6 +189,9 @@ they shouldn't be. That's why the alpha mask is enabled by default.
 ![](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/shader_media/e08533fb229046285c72147d685b1ff55fe90f61.png)  
 ![](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/shader_media/cffd898b850e771d1193dbbaae23d0f2e79cb5c9.png)
 
+
+## In-depth shader breakdown
+
 That concludes all basic clothing options.  
 
 If you are part of the 0.5% and none of these helped fix the material you're having issues with, you can check [the in-depth shader breakdown page](material_breakdown_advanced) for even more information on the KKBP "KK General" shader.
