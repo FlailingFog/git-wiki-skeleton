@@ -12,16 +12,16 @@ A large amount of cards were chosen at random and tested during the
 development of KKBP 8.0.  
 Out of 133 cards...
 
-* 104 (78%) work out of the box
+* 104 (78%) worked out of the box
 
-* 22 (17%) have odd material issues that take 5 minutes to fix
+* 22 (17%) had odd material issues that took 5 minutes to fix
 
-* 5 (4%) export but do not import
+* 5 (4%) exported but did not import
 
-* 1 (0.5%) have odd material issues that would likely take someone a while
+* 1 (0.5%) had odd material issues that would likely take someone a while
 to figure out
 
-* 1 (0.5%) do not export and crash the game
+* 1 (0.5%) did not export and crashed the game
 
 This means if you're having issues **there's a 94.5% chance** reading the
 "Basic options" section below will help you fix the appearance of your
@@ -189,7 +189,7 @@ the shirt looks like with the slider enabled.
 
 And here's what the shirt and jacket look like with the shirt fully
 visible. Notice that some parts are clipping through the jacket when
-they shouldn't be.
+they shouldn't be. That's why the alpha mask is enabled by default.
 
 ![](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/shader_media/e08533fb229046285c72147d685b1ff55fe90f61.png)  
 ![](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/shader_media/cffd898b850e771d1193dbbaae23d0f2e79cb5c9.png)
