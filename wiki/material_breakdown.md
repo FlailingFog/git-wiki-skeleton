@@ -176,7 +176,7 @@ clothing that has an alpha mask
 ![](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/shader_media/5fcdffbb5e0d54c5780dd136b163f7e1b1c9a06c.png)
 
 Portions of this clothing are hidden to prevent it from clipping through
-the jacket. If you want to make the clothing visible anyway, even if it
+the jacket. If you want to make the clothing visible anyway, even though it
 shouldn't be, you can enable the force visibility slider. Here's what
 the shirt looks like with the slider enabled.
 
