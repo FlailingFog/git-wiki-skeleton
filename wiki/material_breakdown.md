@@ -190,7 +190,7 @@ they shouldn't be. That's why the alpha mask is enabled by default.
 ![](https://raw.githubusercontent.com/FlailingFog/git-wiki-skeleton/master/assets/shader_media/cffd898b850e771d1193dbbaae23d0f2e79cb5c9.png)
 
 
-## In-depth shader breakdown
+# In-depth shader breakdown
 
 That concludes all basic clothing options.  
 
