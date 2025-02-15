@@ -1,4 +1,4 @@
-## How to use the exporter
+## How to use the exporter 
 
 1. Install the <a style="font-weight:bold" href="https://github.com/ManlyMarco/KK-HF_Patch"> HF Patch for Koikatsu</a>, or the <a style="font-weight:bold" href="https://github.com/ManlyMarco/KKS-HF_Patch"> HF Patch for Koikatsu Sunshine</a>.  
 **Pre-modded repacks will not work** unless you update with the repack's auto-updater or install the HF patch.  
