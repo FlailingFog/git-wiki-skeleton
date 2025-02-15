@@ -1,4 +1,4 @@
-# Panel options
+# Import panel options
 
 **You can hold your mouse over each option in the KKBP panel to get an explanation on what it does!**  
 

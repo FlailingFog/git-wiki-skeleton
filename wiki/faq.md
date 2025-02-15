@@ -5,8 +5,8 @@ Check the table below. KKBP has been updated many times to keep up with newer Bl
 
 |Blender version|Last working KKBP version|PMX Importer dependency version|Koikatsu HF Patch version|Koikatsu Sunshine HF Patch version|Video guide link|
 |---|---|---|---|---|---|
-4.4.0|8.0.0|mmd_tools 4.2.2|HF Patch 3.32|HF Patch for KKS 1.22|Here|
-4.3.1|8.0.0|mmd_tools 4.2.2|HF Patch 3.32|HF Patch for KKS 1.22|[Here](https://www.youtube.com/playlist?list=PLhiuav2SCuveWvSwKg18l6mDSl5xl4x7o)|
+4.4.0|8.0.0|mmd_tools 4.2.2|HF Patch 3.32|HF Patch for KKS 1.22|[Here](https://www.youtube.com/watch?v=QvXl4jRppP4&list=PLhiuav2SCuveMgQUA2YqqbSE7BtOrkZ-Q)|
+4.3.2|8.0.0|mmd_tools 4.2.2|HF Patch 3.32|HF Patch for KKS 1.22|[Here](https://www.youtube.com/playlist?list=PLhiuav2SCuveWvSwKg18l6mDSl5xl4x7o)|
 4.2.2 LTS|8.0.0|mmd_tools 4.2.2|HF Patch 3.32|HF Patch for KKS 1.22|[Here](https://www.youtube.com/playlist?list=PLhiuav2SCuveWvSwKg18l6mDSl5xl4x7o)|
 |3.6.9 LTS|6.6.3|mmd_tools 2.9.2|HF Patch 3.22|HF Patch for KKS 1.7|[Here](https://www.youtube.com/playlist?list=PLhiuav2SCuvc-wbexi2vwSnVHnZFwkYNP)|
 |3.5|6.5.0|mmd_tools 2.9.2|HF Patch 3.22|HF Patch for KKS 1.7|[Here](https://www.youtube.com/playlist?list=PLhiuav2SCuvc-wbexi2vwSnVHnZFwkYNP)|
@@ -39,9 +39,7 @@ and change the alphamask to the body_AM_## file that corresponds to your outfit
 ![image](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/faq4.png)
 
 ## My clothes are missing
-Make sure the clothing you're looking for isn't hidden in the outliner. In certain situations, KKBP will automatically hide some clothing objects from view.  
-In rare cases, the outfit will just not export. Check the "Outfit 00" folder in your export folder for a .pmx file. If there's no .pmx file the exporter failed to get the clothing.  
-Please submit a new issue on the github if you find a card that does this.
+Make sure the clothing you're looking for isn't hidden in the outliner. In certain situations, KKBP will automatically hide some clothing objects from view. In rare cases, the outfit will just not export. Check the "Outfit 00" folder in your export folder for a .pmx file. If there's no .pmx file the exporter failed to get the clothing.  Please submit a new issue on the github if you find a card that does this.
 
 ## I'm getting fully white textures after importing my character
 The import script failed somewhere. In Blender, click the Scripting tab on the top of the window. Any errors will appear at the bottom of the log. A successful import log will end in "KKBP import finished"
