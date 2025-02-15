@@ -39,9 +39,7 @@ and change the alphamask to the body_AM_## file that corresponds to your outfit
 ![image](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/faq4.png)
 
 ## My clothes are missing
-Make sure the clothing you're looking for isn't hidden in the outliner. In certain situations, KKBP will automatically hide some clothing objects from view.  
-In rare cases, the outfit will just not export. Check the "Outfit 00" folder in your export folder for a .pmx file. If there's no .pmx file the exporter failed to get the clothing.  
-Please submit a new issue on the github if you find a card that does this.
+Make sure the clothing you're looking for isn't hidden in the outliner. In certain situations, KKBP will automatically hide some clothing objects from view. In rare cases, the outfit will just not export. Check the "Outfit 00" folder in your export folder for a .pmx file. If there's no .pmx file the exporter failed to get the clothing.  Please submit a new issue on the github if you find a card that does this.
 
 ## I'm getting fully white textures after importing my character
 The import script failed somewhere. In Blender, click the Scripting tab on the top of the window. Any errors will appear at the bottom of the log. A successful import log will end in "KKBP import finished"
