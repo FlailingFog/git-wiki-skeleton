@@ -39,7 +39,7 @@
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel5.png)
 
 ## Editing the model in Blender
-1. If there were no errors, you can start using the model as is, but it is recommended to finalize the materials first. If you use the model as is, it can take a long time to compile all the shaders depending on your computer hardware. If you finalize the materials then the shaders will compile very quickly! Finalizing the materials can take anywhere from 5-20 minutes depending on your hardware and model  
+1. If there were no errors, you can start using the model as is by activating the material preview on the top right. If your computer is taking a long time to compile all the shaders (longer than 60 seconds), it is recommended to finalize the materials by clicking the button in the KKBP panel. If you finalize the materials then the shaders will compile very quickly. Finalizing the materials can take anywhere from 5 to 30 minutes depending on your hardware and model.  
 ![ ](https://raw.githubusercontent.com/FlailingFog/flailingfog.github.io/master/assets/images/importpanel6.png)
 
 1. If there were no errors but something doesn't look right, check the [FAQ](faq) or the [material breakdown](material_breakdown) page for information on how to edit the materials. 
